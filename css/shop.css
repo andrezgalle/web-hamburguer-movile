@@ -1,0 +1,156 @@
+
+
+.main-shop{
+    margin: 2rem 0;
+}
+
+.main-shop h1 ,p{
+    text-align: center;
+
+}
+
+.main-shop p{
+    margin-bottom: 3rem;
+}
+.grid-cards-shop{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+
+.grid-cards-shop article{
+    background-color: var(--fondo-icon-cards); 
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 5px 6px 5px #dfc8c3;
+
+}
+
+.grid-cards-shop article img{
+    width: 120px;
+    height: 90px;
+}
+
+.grid-cards-shop article p{
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+.grid-cards-shop article button{
+    background-color: var(--fondo-boton-cards);
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: .8rem;
+}
+
+/* carrito de compras */
+
+.shop-cart {
+    text-align: center;
+}
+
+.shop-cart p{
+    margin: .5rem 0 2rem 0;
+}
+
+.cart{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    width: 100%;
+    border-top: 2px solid rgb(206, 202, 202);
+    padding-top: 1rem;
+}
+
+.cart p{
+    font-size: 1.3rem;
+}
+
+
+.table{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+td{
+    font-size: 1.1rem;
+    width: 32.6%;
+    text-align: center;
+
+}
+
+.product-js{
+    margin: 0 ;
+    width: 100%
+}
+
+.container-carts-buttons{
+    display: flex;
+}
+
+.pay-cart-button{
+    background-color: #939656;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin-right: 1rem;
+}
+
+.delete-cart-button{
+    background-color: var(--fondo-boton-cards);
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem;
+}
+
+.section-pay-button p{
+    font-weight: 900;
+}
+
+.window{
+    width: 75%;
+    padding: 0 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fondo-icon-cards);
+    border-radius: 10px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -150px;
+    transition: top 1.5s; 
+    opacity: 0;
+}
+
+.window img{
+    width: 50px;
+    height: 50px;
+    margin:1rem 0;
+}
+
+
+.window_visible{
+    top: 1140px;
+    opacity: 1;
+}
+
+.price span img{
+    width: 15px;
+    height: 15px;
+}

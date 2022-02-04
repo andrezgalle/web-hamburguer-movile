@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Hamburguer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/shop.css">
+
+</head>
+<div class="div-black">
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo"><img class="logo-icon" src="/assets/icons/hamburger-icon.png" alt="icon-hamburguer"></a>
+            <button class="togger"><img src="/assets/icons/menu.png" alt=""></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="index.html" class="nav-menu-link nav-link">Home</a>
+                </li class="nav-menu-item">
+                <li class="nav-menu-item">
+                    <a href="shop.html" class="nav-menu-link nav-link">Shop</a>
+                </li class="nav-menu-item">
+                <li class="nav-menu-item">
+                    <a href="/menu-desing/Web-Menu-AndyBurguer.pdf" target="blank" class="nav-menu-link nav-link">Menu</a>
+                </li class="nav-menu-item">
+                <li class="nav-menu-item">
+                    <a href="contact.html" class="nav-menu-link nav-link">Contact</a>
+                </li class="nav-menu-item">
+            </ul>
+        </nav>
+        
+    </header>
+    <main class="main-shop">
+        <h1>Order Here</h1>
+        <p>Enjoy our products and accompany them with moments of happiness together with those you love the most.</p>
+        <section class="grid-cards-shop">
+            <article>
+                <img src="/assets/hamburguesa-clasica.png" alt="">
+                <h4 class="name">Classic burguer</h4>
+                <p>classic burger to share with <br> friends.</p>
+                <p class="price">7.99</p>
+                <button type="button" class="button-1" data-id="1">add to cart</button>
+            </article>
+            <article>
+                <img src="/assets/hamburguesa-negra.png" alt="">
+                <h4 class="name">Black Burguer</h4>
+                <p>Halloween burguer to share with friends.</p>
+                <p class="price">10.99</p>
+                <button type="button" class="button-2" data-id="2">add to cart</button>
+            </article>
+            <article>         
+                <img src="/assets/hamburguesa-pollo.png" alt="">
+                <h4 class="name">Chicken burguer</h4>
+                <p>Chicken burguer to share with friends.</p>
+                <p class="price">9.99</p>
+                <button type="button" class="button-3" data-id="3">add to cart</button>
+            </article>            
+            <article>         
+                <img src="/assets/papas.png" alt="">
+                <h4 class="name">French <br> fries</h4>
+                <p>French fries to share with <br> friends.</p>
+                <p class="price">2.99</p>
+                <button type="button" class="button-4" data-id="4">add to cart</button>
+            </article>                      
+            <article>         
+                <img src="/assets/pollo.png" alt="">
+                <h4 class="name">Chicken</h4>
+                <p>classic Chicken to share with <br> friends.</p>
+                <p class="price">5.99</p>
+                <button type="button" class="button-5" data-id="5">add to cart</button>
+            </article>                      
+            <article>         
+                <img src="/assets/sandwich.png" alt="">
+                <h4 class="name">Sandwich <br> House</h4>
+                <p>Sandwich to share with friends.</p>
+                <p class="price">6.99</p>
+                <button type="button" class="button-6" data-id="6">add to cart</button>
+            </article>  
+                      
+        </section>
+
+        <section class="shop-cart">
+            <h2>shopping cart</h2>
+            <p>add your products to our shopping cart.</p>
+            
+            <table id="lista-carrito" class="products-js">
+            </table>
+
+            <section class="section-pay-button">
+                <p>total: <span class="total"></span> </p>
+                <div class="container-carts-buttons">
+                    <button class="pay-cart-button" type="button">To pay</button>
+                    <button class="delete-cart-button" type="button">Delete</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+
+            
+            <div class="container-img-footer">
+                <img src="/assets/icons/hamburger-icon.png" alt="icon-hamburguer">
+            </div>
+            <div class="container-text-footer">
+                <p>Todos los derechos reservados Andrés Gallego Tovar &copy;</p>
+            </div>
+        </div>
+        <div class="window">
+            <p>Your request has been made successfully.</p>
+            <img src="/assets/icons/hamburger-icon.png" alt="hamburger-icon">
+            <p>Total: <span class="total-window"></span> </p>
+        </div>
+
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/animacion-shop.js"></script>
+
+</body>
+</div>
+</html>
